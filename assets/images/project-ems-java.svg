@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="emsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0c0c"/>
+      <stop offset="100%" stop-color="#141414"/>
+    </linearGradient>
+    <pattern id="emsGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#222222" stroke-width="0.75"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#emsBg)"/>
+  <rect width="800" height="500" fill="url(#emsGrid)"/>
+  <rect x="20" y="20" width="760" height="460" rx="16" fill="none" stroke="#262626" stroke-width="1.5"/>
+
+  <!-- Desktop Window Frame -->
+  <g transform="translate(45, 45)">
+    <!-- App Window Header -->
+    <rect width="710" height="410" rx="10" fill="#111111" stroke="#333" stroke-width="1"/>
+    <path d="M 0 10 Q 0 0 10 0 L 700 0 Q 710 0 710 10 L 710 38 L 0 38 Z" fill="#1a1a1a"/>
+    <circle cx="20" cy="19" r="5" fill="#444"/>
+    <circle cx="38" cy="19" r="5" fill="#444"/>
+    <circle cx="56" cy="19" r="5" fill="#444"/>
+    <text x="85" y="23" fill="#a3a3a3" font-family="'JetBrains Mono', monospace" font-size="12">
+      Educational Management System [EMS] — Java Swing &amp; MS SQL Server
+    </text>
+
+    <!-- Inner UI: Sidebar + Main Content -->
+    <!-- Sidebar -->
+    <g transform="translate(15, 52)">
+      <rect width="180" height="342" rx="6" fill="#141414" stroke="#242424"/>
+      <text x="16" y="28" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="700">DASHBOARDS</text>
+      
+      <!-- Nav items -->
+      <rect x="10" y="44" width="160" height="32" rx="4" fill="#242424"/>
+      <text x="24" y="65" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="600">Student Portal</text>
+      
+      <rect x="10" y="84" width="160" height="32" rx="4" fill="none"/>
+      <text x="24" y="105" fill="#888888" font-family="sans-serif" font-size="11">Doctor Dashboard</text>
+
+      <rect x="10" y="124" width="160" height="32" rx="4" fill="none"/>
+      <text x="24" y="145" fill="#888888" font-family="sans-serif" font-size="11">Course Directory</text>
+
+      <rect x="10" y="164" width="160" height="32" rx="4" fill="none"/>
+      <text x="24" y="185" fill="#888888" font-family="sans-serif" font-size="11">Assignments</text>
+
+      <line x1="16" y1="210" x2="164" y2="210" stroke="#222" stroke-width="1"/>
+
+      <!-- Database Status -->
+      <text x="16" y="235" fill="#737373" font-family="sans-serif" font-size="10" font-weight="700">DB CONNECTION</text>
+      <circle cx="24" cy="254" r="4" fill="#ffffff"/>
+      <text x="36" y="258" fill="#e5e5e5" font-family="'JetBrains Mono', monospace" font-size="10">SQL SERVER: ON</text>
+      <text x="24" y="280" fill="#666" font-family="'JetBrains Mono', monospace" font-size="9.5">jdbc:sqlserver://localhost</text>
+      
+      <!-- DAO Architecture Tag -->
+      <rect x="10" y="300" width="160" height="26" rx="4" fill="#1c1c1c" stroke="#2e2e2e"/>
+      <text x="20" y="317" fill="#a3a3a3" font-family="'JetBrains Mono', monospace" font-size="10">DAO PATTERN APPLIED</text>
+    </g>
+
+    <!-- Main Content Area: SQL Schema & Swing Tables -->
+    <g transform="translate(210, 52)">
+      <!-- Top Stats Row -->
+      <g>
+        <rect x="0" y="0" width="150" height="70" rx="6" fill="#161616" stroke="#262626"/>
+        <text x="14" y="24" fill="#737373" font-family="sans-serif" font-size="10">REGISTERED COURSES</text>
+        <text x="14" y="52" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="700">08 ACTIVE</text>
+      </g>
+      <g transform="translate(165, 0)">
+        <rect x="0" y="0" width="150" height="70" rx="6" fill="#161616" stroke="#262626"/>
+        <text x="14" y="24" fill="#737373" font-family="sans-serif" font-size="10">SUBMITTED TASKS</text>
+        <text x="14" y="52" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="700">24 ASSIGN</text>
+      </g>
+      <g transform="translate(330, 0)">
+        <rect x="0" y="0" width="150" height="70" rx="6" fill="#161616" stroke="#262626"/>
+        <text x="14" y="24" fill="#737373" font-family="sans-serif" font-size="10">ARCHITECTURE</text>
+        <text x="14" y="52" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="15" font-weight="700">JAVA OOP / GUI</text>
+      </g>
+
+      <!-- Table View Simulation -->
+      <g transform="translate(0, 85)">
+        <rect width="480" height="150" rx="6" fill="#131313" stroke="#262626"/>
+        <!-- Table Header -->
+        <rect width="480" height="30" rx="6" fill="#1e1e1e"/>
+        <text x="16" y="20" fill="#ffffff" font-family="sans-serif" font-size="10.5" font-weight="700">COURSE_ID</text>
+        <text x="110" y="20" fill="#ffffff" font-family="sans-serif" font-size="10.5" font-weight="700">COURSE_TITLE</text>
+        <text x="260" y="20" fill="#ffffff" font-family="sans-serif" font-size="10.5" font-weight="700">INSTRUCTOR</text>
+        <text x="390" y="20" fill="#ffffff" font-family="sans-serif" font-size="10.5" font-weight="700">STATUS</text>
+
+        <!-- Rows -->
+        <line x1="0" y1="30" x2="480" y2="30" stroke="#2a2a2a" stroke-width="1"/>
+        <text x="16" y="52" fill="#a3a3a3" font-family="'JetBrains Mono', monospace" font-size="10">CS-201</text>
+        <text x="110" y="52" fill="#e5e5e5" font-family="sans-serif" font-size="10.5">Data Structures</text>
+        <text x="260" y="52" fill="#a3a3a3" font-family="sans-serif" font-size="10.5">Faculty Staff</text>
+        <rect x="390" y="40" width="70" height="18" rx="3" fill="#262626"/>
+        <text x="402" y="53" fill="#ffffff" font-family="sans-serif" font-size="9.5" font-weight="600">ENROLLED</text>
+
+        <line x1="0" y1="68" x2="480" y2="68" stroke="#1f1f1f" stroke-width="1"/>
+        <text x="16" y="90" fill="#a3a3a3" font-family="'JetBrains Mono', monospace" font-size="10">CS-204</text>
+        <text x="110" y="90" fill="#e5e5e5" font-family="sans-serif" font-size="10.5">Database Systems</text>
+        <text x="260" y="90" fill="#a3a3a3" font-family="sans-serif" font-size="10.5">Faculty Staff</text>
+        <rect x="390" y="78" width="70" height="18" rx="3" fill="#262626"/>
+        <text x="402" y="91" fill="#ffffff" font-family="sans-serif" font-size="9.5" font-weight="600">ENROLLED</text>
+
+        <line x1="0" y1="106" x2="480" y2="106" stroke="#1f1f1f" stroke-width="1"/>
+        <text x="16" y="128" fill="#a3a3a3" font-family="'JetBrains Mono', monospace" font-size="10">AI-301</text>
+        <text x="110" y="128" fill="#e5e5e5" font-family="sans-serif" font-size="10.5">Artificial Intelligence</text>
+        <text x="260" y="128" fill="#a3a3a3" font-family="sans-serif" font-size="10.5">Faculty Staff</text>
+        <rect x="390" y="116" width="70" height="18" rx="3" fill="#262626"/>
+        <text x="402" y="129" fill="#ffffff" font-family="sans-serif" font-size="9.5" font-weight="600">ENROLLED</text>
+      </g>
+
+      <!-- Bottom SQL Architecture Box -->
+      <g transform="translate(0, 248)">
+        <rect width="480" height="94" rx="6" fill="#0d0d0d" stroke="#222"/>
+        <text x="14" y="24" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="bold">
+          -- SQL Server Relational Database Architecture
+        </text>
+        <text x="14" y="44" fill="#737373" font-family="'JetBrains Mono', monospace" font-size="10">
+          CREATE TABLE Courses (CourseID VARCHAR(10) PRIMARY KEY, CourseName VARCHAR(100));
+        </text>
+        <text x="14" y="62" fill="#737373" font-family="'JetBrains Mono', monospace" font-size="10">
+          CREATE TABLE Assignments (AssignID INT PRIMARY KEY, CourseID VARCHAR(10) FOREIGN KEY...);
+        </text>
+        <text x="14" y="80" fill="#a3a3a3" font-family="'JetBrains Mono', monospace" font-size="10">
+          SELECT * FROM StudentAssignments WHERE SubmissionStatus = 'PENDING_EVALUATION';
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="100%" height="100%">
+  <defs>
+    <linearGradient id="certBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d0d0d"/>
+      <stop offset="50%" stop-color="#141414"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <pattern id="certPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#222222" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Outer Frame -->
+  <rect width="800" height="560" fill="url(#certBg)"/>
+  <rect width="800" height="560" fill="url(#certPattern)"/>
+  
+  <!-- Certificate Border -->
+  <rect x="25" y="25" width="750" height="510" rx="8" fill="none" stroke="#404040" stroke-width="2"/>
+  <rect x="35" y="35" width="730" height="490" rx="4" fill="none" stroke="#262626" stroke-width="1"/>
+  
+  <!-- Corner Ornaments (Monochrome) -->
+  <g stroke="#ffffff" stroke-width="1.5" fill="none">
+    <path d="M 45 65 L 45 45 L 65 45"/>
+    <path d="M 755 65 L 755 45 L 735 45"/>
+    <path d="M 45 495 L 45 515 L 65 515"/>
+    <path d="M 755 495 L 755 515 L 735 515"/>
+  </g>
+
+  <!-- Header Section -->
+  <g transform="translate(400, 100)" text-anchor="middle">
+    <!-- Emblem -->
+    <circle cx="0" cy="-20" r="28" fill="#1c1c1c" stroke="#666" stroke-width="1.5"/>
+    <text x="0" y="-14" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="900">ITI</text>
+
+    <text x="0" y="35" fill="#a3a3a3" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="3">
+      INFORMATION TECHNOLOGY INSTITUTE
+    </text>
+    <text x="0" y="65" fill="#ffffff" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="700" letter-spacing="1">
+      CERTIFICATE OF COMPLETION
+    </text>
+    <line x1="-120" y1="85" x2="120" y2="85" stroke="#404040" stroke-width="1"/>
+  </g>
+
+  <!-- Body Text -->
+  <g transform="translate(400, 230)" text-anchor="middle">
+    <text x="0" y="0" fill="#737373" font-family="sans-serif" font-size="13" letter-spacing="1">
+      THIS IS PROUDLY CONFERRED UPON
+    </text>
+    <text x="0" y="38" fill="#ffffff" font-family="sans-serif" font-size="30" font-weight="800" letter-spacing="0.5">
+      Abeer Wael
+    </text>
+    <line x1="-160" y1="52" x2="160" y2="52" stroke="#555555" stroke-width="1.5"/>
+
+    <text x="0" y="85" fill="#a3a3a3" font-family="sans-serif" font-size="14">
+      for successfully completing the rigorous 60-Hour Intensive Program in
+    </text>
+    <text x="0" y="115" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="19" font-weight="700">
+      Python Programming Training (60 Hours)
+    </text>
+
+    <!-- Detailed Syllabus Pill List -->
+    <text x="0" y="150" fill="#888888" font-family="sans-serif" font-size="12">
+      Object-Oriented Programming (OOP) • Structured Problem Solving • Control Structures • Algorithms
+    </text>
+  </g>
+
+  <!-- Footer Verification & Stamp -->
+  <g transform="translate(80, 440)">
+    <!-- Issuing Body -->
+    <line x1="0" y1="35" x2="180" y2="35" stroke="#333" stroke-width="1"/>
+    <text x="0" y="52" fill="#737373" font-family="sans-serif" font-size="11">ISSUING AUTHORITY</text>
+    <text x="0" y="25" fill="#e5e5e5" font-family="sans-serif" font-size="12" font-weight="600">Information Technology Institute</text>
+  </g>
+
+  <g transform="translate(540, 440)">
+    <line x1="0" y1="35" x2="180" y2="35" stroke="#333" stroke-width="1"/>
+    <text x="0" y="52" fill="#737373" font-family="sans-serif" font-size="11">VERIFICATION STATUS</text>
+    <text x="0" y="25" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">VERIFIED CREDENTIAL</text>
+  </g>
+
+  <!-- Center Seal Stamp -->
+  <g transform="translate(400, 445)">
+    <circle cx="0" cy="0" r="30" fill="#141414" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="4,2"/>
+    <text x="0" y="4" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="9" text-anchor="middle" font-weight="700">
+      OFFICIAL
+    </text>
+  </g>
+</svg>

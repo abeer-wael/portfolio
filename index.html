@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Social Graph Metadata -->
+  <title>Abeer Wael | Computer and Information Science Student</title>
+  <meta name="description" content="Official portfolio of Abeer Wael — Computer and Information Science student at Damanhour University with a focus on Software Engineering, Object-Oriented Programming (Python, Java, C++), Data Structures, and Network Infrastructure.">
+  <meta name="keywords" content="Abeer Wael, Computer Science, Damanhour University, Python, Java, C++, Cisco Packet Tracer, Networking, OOP, Data Structures, Portfolio, Egypt">
+  <meta name="author" content="Abeer Wael">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Abeer Wael | Computer and Information Science Student">
+  <meta property="og:description" content="Explore academic projects, technical training, network infrastructure engineering, and competitive programming by Abeer Wael.">
+  <meta property="og:image" content="assets/images/profile.jpg">
+
+  <!-- Twitter Meta -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Abeer Wael | Computer and Information Science Student">
+  <meta name="twitter:description" content="Explore academic projects, technical training, network infrastructure engineering, and competitive programming by Abeer Wael.">
+  <meta name="twitter:image" content="assets/images/profile.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Google Fonts: Space Grotesk, Plus Jakarta Sans, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Abeer Wael",
+    "jobTitle": "Computer and Information Science Student",
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "Damanhour University"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Behaira",
+      "addressCountry": "Egypt"
+    },
+    "email": "mailto:abeer.wael18@gmail.com",
+    "telephone": "+201060931756",
+    "knowsAbout": ["Python", "Java", "C++", "HTML", "CSS", "JavaScript", "Cisco Packet Tracer", "VLANs", "Network Topologies", "Data Structures", "Object-Oriented Programming", "Artificial Intelligence"]
+  }
+  </script>
+</head>
+<body class="modal-open">
+
+  <!-- Ambient Monochrome Lighting & Particles Canvas -->
+  <div class="bg-ambient-layer" aria-hidden="true">
+    <div class="ambient-glow-1"></div>
+    <div class="ambient-glow-2"></div>
+  </div>
+  <canvas id="particle-canvas" aria-hidden="true"></canvas>
+
+  <!-- Custom Cursor Elements (Desktop Only) -->
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <!-- Minimal Monochrome Preloader -->
+  <div id="preloader" role="status" aria-live="polite">
+    <div class="preloader-brand">
+      <div class="brand-badge" style="width:48px; height:48px; font-size:1.1rem;">AW</div>
+      <h1 class="preloader-name">Abeer Wael</h1>
+      <p class="preloader-title">Computer &amp; Information Science</p>
+    </div>
+    <div class="preloader-bar-wrap" aria-hidden="true">
+      <div class="preloader-bar"></div>
+    </div>
+  </div>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress-container" aria-hidden="true">
+    <div class="scroll-progress-bar"></div>
+  </div>
+
+  <!-- Sticky Header & Navigation -->
+  <header class="site-nav" role="banner">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Abeer Wael Home">
+        <span class="brand-badge">AW</span>
+        <span>Abeer Wael</span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav role="navigation" aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#problem-solving" class="nav-link">Problem Solving</a></li>
+          <li><a href="#cv" class="nav-link">CV</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav CTA & Mobile Hamburger -->
+      <div class="nav-actions">
+        <a href="#contact" class="nav-cta-btn">
+          <span>Get In Touch</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+    <ul class="mobile-menu-list">
+      <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+      <li><a href="#about" class="mobile-nav-link">About</a></li>
+      <li><a href="#education" class="mobile-nav-link">Education</a></li>
+      <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
+      <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+      <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+      <li><a href="#certifications" class="mobile-nav-link">Certifications</a></li>
+      <li><a href="#problem-solving" class="mobile-nav-link">Problem Solving</a></li>
+      <li><a href="#cv" class="mobile-nav-link">CV</a></li>
+      <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <!-- =======================================================================
+         1. HERO SECTION
+         ======================================================================= -->
+    <section id="hero" class="hero-section" aria-label="Hero Section">
+      <div class="container hero-grid">
+        <!-- Hero Text Content -->
+        <div class="hero-content">
+          <div class="hero-status-pill">
+            <span class="status-indicator"></span>
+            <span>Available for Internships &amp; Opportunities</span>
+          </div>
+
+          <h1 class="hero-name">Abeer Wael</h1>
+          <p class="hero-title-badge">Computer and Information Science Student</p>
+
+          <p class="hero-description">
+            Computer and Information Science student with a foundation in programming, networking, and problem solving. Experienced in academic projects using Python and Java, with knowledge of Object-Oriented Programming, Data Structures, databases, and AI-based problem solving.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Work</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="assets/docs/Abeer_Wael_CV.pdf" download="Abeer_Wael_CV.pdf" class="btn btn-outline">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+              <span>Download CV</span>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <span>Contact Me</span>
+            </a>
+          </div>
+
+          <!-- Quick Stats Row (100% CV Grounded) -->
+          <div class="hero-stats-row">
+            <div class="stat-item">
+              <span class="stat-val">3.44 <span style="font-size:0.6em; color:var(--color-gray-500);">/ 4.00</span></span>
+              <span class="stat-label">Academic GPA</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-val">100+</span>
+              <span class="stat-label">Training Hours (ITI &amp; Sprints)</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-val">2024 – 2028</span>
+              <span class="stat-label">Degree Timeline</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Profile Visual Card -->
+        <div class="hero-visual-card">
+          <div class="profile-card-inner">
+            <div class="profile-deco-pill">
+              <span style="display:inline-block; width:6px; height:6px; background:#fff; border-radius:50%;"></span>
+              <span>Behaira, Egypt</span>
+            </div>
+            <div class="profile-image-wrap">
+              <img src="assets/images/profile.jpg" alt="Abeer Wael — Computer and Information Science Student" class="profile-img" width="440" height="550">
+              <div class="profile-spec-tag">
+                <div class="profile-spec-info">
+                  <span class="profile-spec-name">Abeer Wael</span>
+                  <span class="profile-spec-loc">Damanhour University</span>
+                </div>
+                <span class="profile-spec-badge">CS Student</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         2. ABOUT SECTION
+         ======================================================================= -->
+    <section id="about" aria-label="About Abeer Wael">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">
+            <span class="section-tag-dot"></span>
+            About Me
+          </span>
+          <h2 class="section-title">Foundations in Software &amp; Systems</h2>
+          <p class="section-subtitle">
+            Transforming academic theory into practical implementations across software engineering, algorithms, and network architecture.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Column: Narrative Summary & Facts -->
+          <div class="about-card">
+            <p class="about-narrative">
+              I am a Computer and Information Science student with practical exposure to networking fundamentals, IP addressing, routing, LAN/WAN technologies, Cisco Packet Tracer, and introductory cybersecurity concepts through technical training. 
+            </p>
+            <p class="about-narrative" style="margin-bottom:0;">
+              Currently developing programming and networking skills through academic projects, competitive programming practice, and rigorous technical training programs.
+            </p>
+
+            <div class="about-quick-facts">
+              <div class="fact-box">
+                <span class="fact-title">University</span>
+                <span class="fact-val">Damanhour University</span>
+              </div>
+              <div class="fact-box">
+                <span class="fact-title">Location</span>
+                <span class="fact-val">Behaira, Egypt</span>
+              </div>
+              <div class="fact-box">
+                <span class="fact-title">Academic Standing</span>
+                <span class="fact-val">GPA 3.44 / 4.00</span>
+              </div>
+              <div class="fact-box">
+                <span class="fact-title">Specialization</span>
+                <span class="fact-val">Computer &amp; Information Science</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: 4 Core Pillars from CV -->
+          <div class="pillars-grid">
+            <div class="pillar-item">
+              <span class="pillar-num">01</span>
+              <div class="pillar-body">
+                <h3 class="pillar-title">Object-Oriented Programming &amp; Architecture</h3>
+                <p class="pillar-desc">
+                  Building modular software systems with Python, Java, and C++ utilizing encapsulation, inheritance, polymorphism, and established design patterns.
+                </p>
+              </div>
+            </div>
+
+            <div class="pillar-item">
+              <span class="pillar-num">02</span>
+              <div class="pillar-body">
+                <h3 class="pillar-title">Data Structures &amp; AI Problem Solving</h3>
+                <p class="pillar-desc">
+                  Applying graph search algorithms (BFS), optimal pathfinding, and algorithmic problem solving through regular practice on Codeforces and VJudge.
+                </p>
+              </div>
+            </div>
+
+            <div class="pillar-item">
+              <span class="pillar-num">03</span>
+              <div class="pillar-body">
+                <h3 class="pillar-title">Network Infrastructure &amp; Topologies</h3>
+                <p class="pillar-desc">
+                  Hands-on engineering with Cisco Packet Tracer, VLAN segmentation, Router-on-a-Stick inter-VLAN routing, and OSI model layer diagnostics.
+                </p>
+              </div>
+            </div>
+
+            <div class="pillar-item">
+              <span class="pillar-num">04</span>
+              <div class="pillar-body">
+                <h3 class="pillar-title">Database Design &amp; Systems Integration</h3>
+                <p class="pillar-desc">
+                  Architecting normalized relational databases using Microsoft SQL Server, coupled with desktop interfaces built in Java Swing.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Academic Coursework Matrix -->
+        <div class="coursework-wrap">
+          <div class="coursework-header">
+            <div>
+              <h3 style="font-size:1.25rem; font-weight:700; color:var(--color-white);">Academic Coursework Matrix</h3>
+              <p style="font-size:0.88rem; color:var(--text-secondary);">Direct curriculum studied at Damanhour University</p>
+            </div>
+            <span class="section-tag" style="margin-bottom:0;">Core CS Curriculum</span>
+          </div>
+
+          <div class="coursework-chips">
+            <span class="course-chip">Programming Fundamentals</span>
+            <span class="course-chip">Object-Oriented Programming (OOP)</span>
+            <span class="course-chip">Data Structures</span>
+            <span class="course-chip">Database Systems</span>
+            <span class="course-chip">Discrete Mathematics</span>
+            <span class="course-chip">Logic Design</span>
+            <span class="course-chip">Artificial Intelligence</span>
+            <span class="course-chip">Computer Architecture</span>
+            <span class="course-chip">Data Communication</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         3. EDUCATION SECTION
+         ======================================================================= -->
+    <section id="education" aria-label="Education Timeline">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">
+            <span class="section-tag-dot"></span>
+            Education
+          </span>
+          <h2 class="section-title">Academic Background</h2>
+          <p class="section-subtitle">
+            Formal computer science training and academic achievements at Damanhour University.
+          </p>
+        </div>
+
+        <div class="education-timeline">
+          <div class="edu-card">
+            <div class="edu-top-row">
+              <div>
+                <h3 class="edu-degree">Bachelor’s Degree in Computer and Information Science</h3>
+                <div class="edu-institution">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg>
+                  <span>Damanhour University, El-Nobaria City</span>
+                </div>
+              </div>
+              <span class="edu-dates">Oct 2024 – Jul 2028</span>
+            </div>
+
+            <!-- GPA Showcase Bar -->
+            <div class="gpa-showcase">
+              <div class="gpa-num-box">
+                <span class="gpa-big">3.44</span>
+                <span class="gpa-scale">GPA / 4.00</span>
+              </div>
+              <div class="gpa-bar-track" aria-label="GPA Progress: 3.44 out of 4.00">
+                <div class="gpa-bar-fill"></div>
+              </div>
+              <span class="gpa-badge">High Academic Standing</span>
+            </div>
+
+            <div style="margin-top:1.5rem;">
+              <h4 style="font-size:0.95rem; font-weight:700; color:var(--color-white); margin-bottom:0.75rem; text-transform:uppercase; letter-spacing:0.05em; font-family:var(--font-mono);">
+                Curriculum Focus Areas
+              </h4>
+              <div class="coursework-chips">
+                <span class="course-chip">Object-Oriented Programming</span>
+                <span class="course-chip">Data Structures</span>
+                <span class="course-chip">Database Systems</span>
+                <span class="course-chip">Artificial Intelligence</span>
+                <span class="course-chip">Data Communication</span>
+                <span class="course-chip">Computer Architecture</span>
+                <span class="course-chip">Discrete Mathematics</span>
+                <span class="course-chip">Logic Design</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         4. EXPERIENCE & INTERNSHIPS
+         ======================================================================= -->
+    <section id="experience" aria-label="Experience and Internships">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">
+            <span class="section-tag-dot"></span>
+            Experience
+          </span>
+          <h2 class="section-title">Practical Engineering Internships</h2>
+          <p class="section-subtitle">
+            Hands-on technical training and enterprise infrastructure projects.
+          </p>
+        </div>
+
+        <div class="exp-timeline-container">
+          <div class="exp-card">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-role">Network Infrastructure Intern</h3>
+                <div class="exp-company">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                  <span>National Telecommunication Institute (NTI) &amp; ITIDA</span>
+                </div>
+              </div>
+              <div style="display:flex; flex-direction:column; align-items:flex-end; gap:0.25rem;">
+                <span class="exp-badge">06 Jul 2025 – 31 Jul 2025</span>
+                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--color-gray-400);">120 Hrs &bull; Score: 84% (ID: 224475)</span>
+              </div>
+            </div>
+
+            <!-- Vector Diagram of the NTI Network Project -->
+            <div class="exp-diagram-wrap">
+              <img src="assets/images/exp-cisco-network.svg" alt="NTI Multi-VLAN Cisco Packet Tracer Infrastructure" class="exp-diagram-img" width="800" height="500">
+            </div>
+
+            <!-- Responsibilities & Achievements from CV -->
+            <ul class="exp-bullet-list">
+              <li class="exp-bullet-item">
+                <span class="bullet-icon"></span>
+                <span>Designed and implemented a comprehensive company network topology divided into three dedicated operational sections using Cisco Packet Tracer.</span>
+              </li>
+              <li class="exp-bullet-item">
+                <span class="bullet-icon"></span>
+                <span>Configured Virtual Local Area Networks (VLANs) to segment network traffic, and interconnected the three sections using Router-on-a-Stick inter-VLAN routing.</span>
+              </li>
+              <li class="exp-bullet-item">
+                <span class="bullet-icon"></span>
+                <span>Prepared supporting technical materials for multiple soft skills presentations and contributed to developing the presentation curriculum.</span>
+              </li>
+              <li class="exp-bullet-item">
+                <span class="bullet-icon"></span>
+                <span>Delivered one of the primary training presentations, demonstrating strong communication, technical articulation, and presentation skills.</span>
+              </li>
+            </ul>
+
+            <div class="exp-tags-row">
+              <span class="exp-tag">Cisco Packet Tracer</span>
+              <span class="exp-tag">VLAN Segmentation</span>
+              <span class="exp-tag">Router-on-a-Stick</span>
+              <span class="exp-tag">802.1Q Trunking</span>
+              <span class="exp-tag">Subnetting &amp; IP Addressing</span>
+              <span class="exp-tag">Technical Presentations</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         5. TECHNICAL SKILLS SECTION
+         ======================================================================= -->
+    <section id="skills" aria-label="Technical Skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">
+            <span class="section-tag-dot"></span>
+            Technical Arsenal
+          </span>
+          <h2 class="section-title">Verified Skills &amp; Competencies</h2>
+          <p class="section-subtitle">
+            Organized strictly according to the curriculum, training, and technical projects in the CV.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming Languages -->
+          <div class="skill-category-card">
+            <div class="skill-card-top">
+              <div class="skill-cat-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <h3 class="skill-cat-title">Programming Languages</h3>
+            </div>
+            <div class="skill-pills-wrap">
+              <span class="skill-pill"><span class="skill-pill-dot"></span>Python</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>Java</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>C++</span>
+            </div>
+          </div>
+
+          <!-- Web Development -->
+          <div class="skill-category-card">
+            <div class="skill-card-top">
+              <div class="skill-cat-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              </div>
+              <h3 class="skill-cat-title">Web Development</h3>
+            </div>
+            <div class="skill-pills-wrap">
+              <span class="skill-pill"><span class="skill-pill-dot"></span>HTML5</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>CSS3</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>JavaScript (ES6+)</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>Responsive UI</span>
+            </div>
+          </div>
+
+          <!-- Computer Science Concepts -->
+          <div class="skill-category-card">
+            <div class="skill-card-top">
+              <div class="skill-cat-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+              </div>
+              <h3 class="skill-cat-title">Core Computer Science</h3>
+            </div>
+            <div class="skill-pills-wrap">
+              <span class="skill-pill"><span class="skill-pill-dot"></span>Object-Oriented Programming (OOP)</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>Data Structures</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>Algorithms</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>AI-Based Problem Solving</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>Breadth-First Search (BFS)</span>
+            </div>
+          </div>
+
+          <!-- Networking Fundamentals -->
+          <div class="skill-category-card">
+            <div class="skill-card-top">
+              <div class="skill-cat-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+              </div>
+              <h3 class="skill-cat-title">Networking &amp; Infrastructure</h3>
+            </div>
+            <div class="skill-pills-wrap">
+              <span class="skill-pill"><span class="skill-pill-dot"></span>OSI Model</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>Network Topologies</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>Routing Basics</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>LAN / WAN</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>IP Addressing &amp; Subnetting</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>VLANs</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>Router-on-a-Stick</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>Intro Cybersecurity</span>
+            </div>
+          </div>
+
+          <!-- Databases & Software Engineering Tools -->
+          <div class="skill-category-card">
+            <div class="skill-card-top">
+              <div class="skill-cat-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+              </div>
+              <h3 class="skill-cat-title">Databases &amp; GUI Frameworks</h3>
+            </div>
+            <div class="skill-pills-wrap">
+              <span class="skill-pill"><span class="skill-pill-dot"></span>Microsoft SQL Server</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>Database Schema Design</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>Java Swing GUI</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>DAO Pattern</span>
+            </div>
+          </div>
+
+          <!-- Engineering Tools & Platforms -->
+          <div class="skill-category-card">
+            <div class="skill-card-top">
+              <div class="skill-cat-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              </div>
+              <h3 class="skill-cat-title">Tools, Platforms &amp; Practices</h3>
+            </div>
+            <div class="skill-pills-wrap">
+              <span class="skill-pill"><span class="skill-pill-dot"></span>Cisco Packet Tracer</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>Codeforces</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>VJudge</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>Git &amp; GitHub</span>
+              <span class="skill-pill"><span class="skill-pill-dot"></span>Technical Presentations</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         6. PROJECTS SECTION
+         ======================================================================= -->
+    <section id="projects" aria-label="Projects Gallery">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">
+            <span class="section-tag-dot"></span>
+            Portfolio Projects
+          </span>
+          <h2 class="section-title">Engineered Works</h2>
+          <p class="section-subtitle">
+            Authentic academic and personal projects extracted directly from the CV. Click any project card to inspect deep architecture, roles, and problem-solution breakdowns.
+          </p>
+        </div>
+
+        <!-- Category Filter Bar -->
+        <div class="projects-filter-bar">
+          <button class="filter-btn active" data-filter="all">All Projects (3)</button>
+          <button class="filter-btn" data-filter="AI &amp; Algorithms">AI &amp; Algorithms (1)</button>
+          <button class="filter-btn" data-filter="Desktop &amp; Databases">Desktop &amp; Databases (1)</button>
+          <button class="filter-btn" data-filter="Frontend Web">Frontend Web (1)</button>
+        </div>
+
+        <!-- Project Cards Grid -->
+        <div class="projects-grid">
+          <!-- Project 1: Escape Room Game (AI - Python) -->
+          <div class="project-card" data-project="escape-room" data-category="AI &amp; Algorithms" role="button" tabindex="0" aria-label="View Escape Room Game details">
+            <div class="project-thumb-wrap">
+              <img src="assets/images/escape_room_main.png" alt="Escape Room AI Game Authentic Interface" class="project-thumb" width="1000" height="625">
+              <span class="project-category-tag">AI &amp; Algorithms</span>
+            </div>
+            <div class="project-card-body">
+              <div>
+                <span class="project-meta-role">Team Project • Team Coordinator &amp; AI Engineer</span>
+                <h3 class="project-title">Escape Room Game (AI Project – Python)</h3>
+              </div>
+              <p class="project-desc-short">
+                Implemented the autonomous AI agent using the Breadth-First Search (BFS) algorithm to explore the environment and compute the shortest escape path using OOP.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">BFS Algorithm</span>
+                <span class="tech-tag">OOP</span>
+                <span class="tech-tag">AI Agent</span>
+              </div>
+              <span class="project-cta-link">
+                <span>Inspect Project Breakdown</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+            </div>
+          </div>
+
+          <!-- Project 2: Educational Management System (Java Project) -->
+          <div class="project-card" data-project="ems" data-category="Desktop &amp; Databases" role="button" tabindex="0" aria-label="View Educational Management System details">
+            <div class="project-thumb-wrap">
+              <img src="assets/images/ems_main.png" alt="Educational Management System Authentic Java Swing Interface and SQL Server Database Architecture" class="project-thumb" width="1000" height="625">
+              <span class="project-category-tag">Desktop &amp; Databases</span>
+            </div>
+            <div class="project-card-body">
+              <div>
+                <span class="project-meta-role">Team Project • Database Architect &amp; GUI Developer</span>
+                <h3 class="project-title">Educational Management System</h3>
+              </div>
+              <p class="project-desc-short">
+                Designed and implemented the complete system database in SQL Server, developed GUI modules in Java Swing, and integrated database logic with application models.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Java Swing</span>
+                <span class="tech-tag">SQL Server</span>
+                <span class="tech-tag">Data Structures</span>
+              </div>
+              <span class="project-cta-link">
+                <span>Inspect Project Breakdown</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+            </div>
+          </div>
+
+          <!-- Project 3: Pizza Restaurant Website (Frontend) -->
+          <div class="project-card" data-project="pizza-web" data-category="Frontend Web" role="button" tabindex="0" aria-label="View Pizza Restaurant Website details">
+            <div class="project-thumb-wrap">
+              <img src="assets/images/pizza_main.png" alt="Pizza Restaurant Website Authentic Interface and Interactive Menu Showcase" class="project-thumb" width="1000" height="625">
+              <span class="project-category-tag">Frontend Web</span>
+            </div>
+            <div class="project-card-body">
+              <div>
+                <span class="project-meta-role">Individual Project • Full Frontend Engineering</span>
+                <h3 class="project-title">Pizza Restaurant Website</h3>
+              </div>
+              <p class="project-desc-short">
+                Developed a responsive 5-page restaurant website independently with HTML, CSS, JavaScript, featuring animated pizza rotation and dynamic input field layouts.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Interactive UI</span>
+              </div>
+              <span class="project-cta-link">
+                <span>Inspect Project Breakdown</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =======================================================================
+         8. CERTIFICATIONS & TRAINING SECTION
+         ======================================================================= -->
+    <section id="certifications" aria-label="Certifications and Training">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">
+            <span class="section-tag-dot"></span>
+            Professional Training
+          </span>
+          <h2 class="section-title">Certifications &amp; Professional Training</h2>
+          <p class="section-subtitle">
+            220+ combined hours of accredited engineering credentials across Python software engineering, enterprise network infrastructure, and computer systems.
+          </p>
+        </div>
+
+        <div class="certs-grid">
+          <!-- Cert 1: Sprints Python Programming (40 Hours) - Real Certificate Image & Link -->
+          <div class="cert-card" 
+               data-img="assets/images/certificate_sprints.jpg" 
+               data-title="SprintUp – Programming with Python — Sprints (40 Hours)" 
+               data-verify="https://sprints.ai/journeys/learning/ID%20-%20SPR%20-%2055TZ18/view-certificate-serial" 
+               role="button" tabindex="0" aria-label="View Sprints Certificate">
+            <div class="cert-image-container">
+              <img src="assets/images/certificate_sprints.jpg" alt="Sprints Python Programming Certificate" class="cert-img" width="1024" height="723" loading="lazy">
+              <div class="cert-zoom-overlay">
+                <span class="cert-zoom-btn">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                  <span>Inspect Fullscreen</span>
+                </span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <div style="display:flex; justify-content:space-between; align-items:center;">
+                <span class="cert-hours-badge">40 Hours Intensive</span>
+                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--color-gray-400);">ID: SPR-55TZ18</span>
+              </div>
+              <h3 class="cert-title">SprintUp – Programming with Python</h3>
+              <p class="cert-issuer">Issued by Sprints &bull; Ayman Bazaraa, CEO</p>
+              <p class="cert-details">
+                Mastered core Python architectures, algorithm design, procedural programming, and data manipulation through practical applied projects.
+              </p>
+              <div class="cert-action-row">
+                <span class="cert-verify-link">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+                  <span>Official Verified Credential</span>
+                </span>
+                <span style="font-family:var(--font-mono); font-size:0.78rem; color:var(--color-white); font-weight:600;">View &rarr;</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 2: ITI Python Programming (60 Hours) - Real Certificate Image & Link -->
+          <div class="cert-card" 
+               data-img="assets/images/certificate_iti.jpg" 
+               data-title="Programming Fundamentals using Python — Information Technology Institute (ITI) (60 Hours)" 
+               data-verify="https://iti.gov.eg" 
+               role="button" tabindex="0" aria-label="View ITI Certificate">
+            <div class="cert-image-container">
+              <img src="assets/images/certificate_iti.jpg" alt="ITI Python Programming Training Official Certificate" class="cert-img" width="722" height="1024" loading="lazy">
+              <div class="cert-zoom-overlay">
+                <span class="cert-zoom-btn">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                  <span>Inspect Fullscreen</span>
+                </span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <div style="display:flex; justify-content:space-between; align-items:center;">
+                <span class="cert-hours-badge">60 Hours Intensive</span>
+                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--color-gray-400);">Official Ministry Seal</span>
+              </div>
+              <h3 class="cert-title">Programming Fundamentals using Python</h3>
+              <p class="cert-issuer">Information Technology Institute (ITI) &bull; Dr. Heba Saleh, Chairman</p>
+              <p class="cert-details">
+                Completed from 6 July to 17 July 2025. Comprehensive curriculum covering variables, control structures, functions, and Object-Oriented Programming (OOP).
+              </p>
+              <div class="cert-action-row">
+                <span class="cert-verify-link">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                  <span>Accredited Institute Credential</span>
+                </span>
+                <span style="font-family:var(--font-mono); font-size:0.78rem; color:var(--color-white); font-weight:600;">Inspect &rarr;</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 3: NTI Network Infrastructure (120 Hours, Score: 84%) - Real Certificate Image -->
+          <div class="cert-card" 
+               data-img="assets/images/certificate_nti.png" 
+               data-title="Network Infrastructure Training — National Telecommunication Institute (NTI) &amp; ITIDA (120 Hours)" 
+               data-verify="#" 
+               role="button" tabindex="0" aria-label="View NTI Certificate">
+            <div class="cert-image-container">
+              <img src="assets/images/certificate_nti.png" alt="NTI &amp; ITIDA Network Infrastructure Certificate of Training" class="cert-img" width="2200" height="1700" loading="lazy">
+              <div class="cert-zoom-overlay">
+                <span class="cert-zoom-btn">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                  <span>Inspect Fullscreen</span>
+                </span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <div style="display:flex; justify-content:space-between; align-items:center;">
+                <span class="cert-hours-badge">120 Hours (90h Tech + 30h Soft)</span>
+                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--color-white); font-weight:700; background:rgba(255,255,255,0.12); padding:0.15rem 0.5rem; border-radius:var(--radius-sm);">Score: 84%</span>
+              </div>
+              <h3 class="cert-title">Network Infrastructure Training</h3>
+              <p class="cert-issuer">National Telecommunication Institute (NTI) &amp; ITIDA</p>
+              <p class="cert-details">
+                Completed 06 July to 31 July 2025 (Student ID: 224475). Certified under Eng. Ahmed el Zaher (ITIDA CEO) &amp; Prof. Ahmed Khattab (NTI Director) covering routing, VLANs, and networking.
+              </p>
+              <div class="cert-action-row">
+                <span class="cert-verify-link">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+                  <span>Governmental Accredited Credential</span>
+                </span>
+                <span style="font-family:var(--font-mono); font-size:0.78rem; color:var(--color-white); font-weight:600;">Inspect &rarr;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         8. PROBLEM SOLVING & COMPETITIVE PROGRAMMING
+         ======================================================================= -->
+    <section id="problem-solving" aria-label="Problem Solving & Competitive Programming">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">
+            <span class="section-tag-dot"></span>
+            Algorithmic Rigor
+          </span>
+          <h2 class="section-title">Problem Solving &amp; Competitions</h2>
+          <p class="section-subtitle">
+            Consistent algorithmic practice on competitive platforms and university programming contests.
+          </p>
+        </div>
+
+        <div class="cp-showcase-grid">
+          <!-- Left Column: Platforms & Contests -->
+          <div class="cp-card">
+            <h3 style="font-size:1.35rem; font-weight:700; color:var(--color-white);">Active Practice &amp; Contests</h3>
+            <p style="font-size:0.95rem; color:var(--text-secondary);">
+              Routine participation in algorithmic training sessions and official collegiate programming contests.
+            </p>
+
+            <div class="cp-platforms-row">
+              <a href="https://codeforces.com/profile/abe_r" target="_blank" rel="noopener noreferrer" class="platform-badge platform-badge-link" aria-label="Visit Abeer Wael Codeforces Profile">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="4"/><line x1="7" y1="12" x2="7" y2="17"/><line x1="12" y1="8" x2="12" y2="17"/><line x1="17" y1="14" x2="17" y2="17"/></svg>
+                <div style="display:flex; flex-direction:column;">
+                  <span class="platform-name">Codeforces</span>
+                  <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--color-white); font-weight:600;">@abe_r &bull; View Profile &nearr;</span>
+                </div>
+              </a>
+
+              <div class="platform-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+                <div style="display:flex; flex-direction:column;">
+                  <span class="platform-name">VJudge</span>
+                  <span style="font-family:var(--font-mono); font-size:0.72rem; color:var(--color-gray-400);">Online Judge Practice</span>
+                </div>
+              </div>
+            </div>
+
+            <ul class="cp-list" style="margin-top:1rem;">
+              <li class="cp-list-item">
+                <span class="bullet-icon"></span>
+                <span>Regularly solve programming problems centered on algorithms, logical thinking, and data structures.</span>
+              </li>
+              <li class="cp-list-item">
+                <span class="bullet-icon"></span>
+                <span>Active participant in internal programming contests hosted at the Faculty of Computer and Information Science.</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Right Column: Languages & Linguistic Proficiency -->
+          <div class="cp-card">
+            <h3 style="font-size:1.35rem; font-weight:700; color:var(--color-white);">Languages</h3>
+            <p style="font-size:0.95rem; color:var(--text-secondary);">
+              Linguistic proficiencies supporting academic collaboration and global communication.
+            </p>
+
+            <div class="languages-wrap">
+              <div class="lang-box">
+                <div class="lang-info">
+                  <div class="lang-title-row">
+                    <span class="lang-title">Arabic</span>
+                    <span class="lang-badge">Native Language</span>
+                  </div>
+                  <p class="lang-sub">Mother Tongue &bull; Native Proficiency</p>
+                </div>
+              </div>
+
+              <div class="lang-box">
+                <div class="lang-info">
+                  <div class="lang-title-row">
+                    <span class="lang-title">English</span>
+                    <span class="lang-badge">Very Good</span>
+                  </div>
+                  <p class="lang-sub">Professional Working Proficiency</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Soft skills highlight from CV -->
+            <div style="margin-top:1.5rem; padding:1.25rem; background:var(--color-dark-700); border-radius:var(--radius-lg); border:1px solid var(--border-subtle);">
+              <h4 style="font-size:0.92rem; font-weight:700; color:var(--color-white); margin-bottom:0.5rem; font-family:var(--font-mono); text-transform:uppercase;">
+                Demonstrated Communication &amp; Teamwork
+              </h4>
+              <p style="font-size:0.88rem; color:var(--color-gray-300); line-height:1.55;">
+                Prepared and delivered soft skills and technical presentations at NTI Damanhour; served as project coordinator and task distributor for academic software teams.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         9. DEDICATED CV SECTION
+         ======================================================================= -->
+    <section id="cv" aria-label="Curriculum Vitae Download and Inspection">
+      <div class="container">
+        <div class="cv-showcase-box">
+          <div class="cv-info-left">
+            <span class="section-tag" style="width:fit-content;">
+              <span class="section-tag-dot"></span>
+              Curriculum Vitae
+            </span>
+            <h2 class="cv-title">Inspect &amp; Download Official CV</h2>
+            <p class="cv-desc">
+              Access the authentic, complete CV of Abeer Wael — detailing academic coursework at Damanhour University (GPA 3.44), accredited technical training at ITI and Sprints, NTI &amp; ITIDA Network Infrastructure internship (120 Hours, 84% score), and software engineering projects.
+            </p>
+
+            <div class="cv-actions-row">
+              <a href="assets/docs/Abeer_Wael_CV.pdf" download="Abeer_Wael_CV.pdf" class="btn btn-primary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+                <span>Download CV (PDF)</span>
+              </a>
+              <button class="btn btn-outline open-cv-modal">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                <span>View CV Online</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Interactive CV Preview Card -->
+          <div class="cv-preview-card open-cv-modal" role="button" tabindex="0" aria-label="Open CV preview modal">
+            <div class="cv-preview-placeholder">
+              <div class="cv-fake-header">
+                <div class="cv-fake-name">Abeer Wael</div>
+                <div class="cv-fake-sub">Computer and Information Student • GPA 3.44</div>
+              </div>
+              <div class="cv-fake-body">
+                <div class="cv-fake-line"></div>
+                <div class="cv-fake-line short"></div>
+                <div class="cv-fake-line medium"></div>
+                <div class="cv-fake-line"></div>
+                <div class="cv-fake-line short"></div>
+              </div>
+              <div style="display:flex; justify-content:center;">
+                <span class="cv-preview-hover-tag">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                  <span>Click to Read Document</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         10. CONTACT SECTION
+         ======================================================================= -->
+    <section id="contact" aria-label="Contact Abeer Wael">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">
+            <span class="section-tag-dot"></span>
+            Contact
+          </span>
+          <h2 class="section-title">Let’s Connect</h2>
+          <p class="section-subtitle">
+            Have an internship opportunity, project collaboration, or inquiry? Reach out via direct contact channels or send a message below.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Column: Verified Contact Information -->
+          <div class="contact-info-card">
+            <div>
+              <h3 style="font-size:1.35rem; font-weight:700; color:var(--color-white); margin-bottom:0.5rem;">Contact Channels</h3>
+              <p style="font-size:0.92rem; color:var(--text-secondary);">Direct contact details from official CV</p>
+            </div>
+
+            <div class="contact-channels-list">
+              <!-- Email -->
+              <div class="contact-item">
+                <div class="contact-item-left">
+                  <div class="contact-item-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  </div>
+                  <div class="contact-item-meta">
+                    <span class="contact-label">Email Address</span>
+                    <a href="mailto:abeer.wael18@gmail.com" class="contact-val">abeer.wael18@gmail.com</a>
+                  </div>
+                </div>
+                <button class="copy-btn copy-trigger" data-copy="abeer.wael18@gmail.com" aria-label="Copy email address">Copy</button>
+              </div>
+
+              <!-- Phone -->
+              <div class="contact-item">
+                <div class="contact-item-left">
+                  <div class="contact-item-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  </div>
+                  <div class="contact-item-meta">
+                    <span class="contact-label">Phone &amp; WhatsApp</span>
+                    <a href="tel:+201060931756" class="contact-val">+201060931756</a>
+                  </div>
+                </div>
+                <button class="copy-btn copy-trigger" data-copy="+201060931756" aria-label="Copy phone number">Copy</button>
+              </div>
+
+              <!-- Location -->
+              <div class="contact-item">
+                <div class="contact-item-left">
+                  <div class="contact-item-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  </div>
+                  <div class="contact-item-meta">
+                    <span class="contact-label">Location</span>
+                    <span class="contact-val">Behaira, Egypt</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- LinkedIn -->
+              <div class="contact-item">
+                <div class="contact-item-left">
+                  <div class="contact-item-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                  </div>
+                  <div class="contact-item-meta">
+                    <span class="contact-label">Professional Network</span>
+                    <span class="contact-val">LinkedIn Profile</span>
+                  </div>
+                </div>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="copy-btn">Connect &rarr;</a>
+              </div>
+
+              <!-- Codeforces Profile -->
+              <div class="contact-item">
+                <div class="contact-item-left">
+                  <div class="contact-item-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="4"/><line x1="7" y1="12" x2="7" y2="17"/><line x1="12" y1="8" x2="12" y2="17"/><line x1="17" y1="14" x2="17" y2="17"/></svg>
+                  </div>
+                  <div class="contact-item-meta">
+                    <span class="contact-label">Competitive Programming</span>
+                    <a href="https://codeforces.com/profile/abe_r" target="_blank" rel="noopener noreferrer" class="contact-val">Codeforces (@abe_r)</a>
+                  </div>
+                </div>
+                <a href="https://codeforces.com/profile/abe_r" target="_blank" rel="noopener noreferrer" class="copy-btn">Profile &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Contact Form -->
+          <div class="contact-form-wrap">
+            <h3 style="font-size:1.35rem; font-weight:700; color:var(--color-white); margin-bottom:0.5rem;">Send a Direct Message</h3>
+            <p style="font-size:0.92rem; color:var(--text-secondary); margin-bottom:1.5rem;">Fill out the form below to initiate communication.</p>
+
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Full Name *</label>
+                <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Sarah Jenkins" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Email Address *</label>
+                <input type="email" id="contact-email" name="email" class="form-input" placeholder="e.g. sarah@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Your Message *</label>
+                <textarea id="contact-message" name="message" class="form-textarea" placeholder="Detail your internship opportunity, project, or inquiry..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center; margin-top:0.5rem;">
+                <span>Send Message</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =======================================================================
+       SITE FOOTER
+       ======================================================================= -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-name">Abeer Wael</span>
+          <span class="footer-sub">Computer and Information Science Student • Damanhour University</span>
+        </div>
+        <div class="footer-links-row">
+          <a href="#about" class="footer-link">About</a>
+          <a href="#education" class="footer-link">Education</a>
+          <a href="#experience" class="footer-link">Experience</a>
+          <a href="#skills" class="footer-link">Skills</a>
+          <a href="#projects" class="footer-link">Projects</a>
+          <a href="#certifications" class="footer-link">Certifications</a>
+          <a href="#cv" class="footer-link">CV</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">
+          &copy; 2026 Abeer Wael. All rights reserved. Designed with monochrome precision.
+        </p>
+        <a href="#hero" class="back-to-top-btn" aria-label="Back to top of page">
+          <span>Back to Top</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =======================================================================
+       INTERACTIVE MODALS
+       ======================================================================= -->
+
+  <!-- 1. Project Detail Modal -->
+  <div id="project-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-project-title">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div>
+          <h2 id="modal-project-title" class="modal-title">Project Details</h2>
+          <p id="modal-project-sub" style="font-family:var(--font-mono); font-size:0.78rem; color:var(--color-gray-400); margin-top:2px;">Category</p>
+        </div>
+        <button class="modal-close-btn" aria-label="Close project modal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-img-preview">
+          <img id="modal-project-img" src="" alt="Project architecture diagram" width="800" height="500">
+        </div>
+        <div id="modal-project-gallery-thumbs" class="modal-thumbs-strip" style="display:none;"></div>
+
+        <div>
+          <h3 style="font-size:1.1rem; font-weight:700; color:var(--color-white); margin-bottom:0.4rem;">Overview</h3>
+          <p id="modal-project-overview" style="color:var(--text-secondary); line-height:1.65;"></p>
+        </div>
+
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:1.5rem;">
+          <div>
+            <h4 style="font-size:0.95rem; font-weight:700; color:var(--color-white); margin-bottom:0.35rem; font-family:var(--font-mono);">The Challenge / Problem</h4>
+            <p id="modal-project-problem" style="font-size:0.92rem; color:var(--color-gray-400); line-height:1.6;"></p>
+          </div>
+          <div>
+            <h4 style="font-size:0.95rem; font-weight:700; color:var(--color-white); margin-bottom:0.35rem; font-family:var(--font-mono);">The Engineering Solution</h4>
+            <p id="modal-project-solution" style="font-size:0.92rem; color:var(--color-gray-400); line-height:1.6;"></p>
+          </div>
+        </div>
+
+        <div>
+          <h4 style="font-size:0.95rem; font-weight:700; color:var(--color-white); margin-bottom:0.35rem; font-family:var(--font-mono);">Abeer’s Role &amp; Contributions</h4>
+          <p id="modal-project-role" style="font-size:0.95rem; color:var(--color-gray-300); line-height:1.65;"></p>
+        </div>
+
+        <div>
+          <h4 style="font-size:0.95rem; font-weight:700; color:var(--color-white); margin-bottom:0.75rem; font-family:var(--font-mono);">Key Features</h4>
+          <ul id="modal-project-features" class="exp-bullet-list"></ul>
+        </div>
+
+        <div>
+          <h4 style="font-size:0.95rem; font-weight:700; color:var(--color-white); margin-bottom:0.5rem; font-family:var(--font-mono);">Technologies &amp; Tools</h4>
+          <div id="modal-project-tech" class="project-tech-tags"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Certificate & Gallery Lightbox Modal -->
+  <div id="cert-lightbox" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+    <div class="lightbox-container">
+      <div style="width:100%; display:flex; justify-content:space-between; align-items:center; color:var(--color-white);">
+        <h2 id="lightbox-title" style="font-size:1.15rem; font-weight:700;">Fullscreen View</h2>
+        <button class="modal-close-btn" aria-label="Close fullscreen lightbox">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="lightbox-img-wrap">
+        <img id="lightbox-img" src="" alt="High resolution preview">
+      </div>
+      <p id="lightbox-desc" style="font-size:0.92rem; color:var(--color-gray-300); text-align:center; max-width:760px; line-height:1.6; margin-top:0.25rem; display:none;"></p>
+      <div class="lightbox-actions">
+        <a id="lightbox-verify-link" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+          <span>Open Online Verification Link</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. CV Viewer Modal -->
+  <div id="cv-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-label="Curriculum Vitae Preview">
+    <div class="modal-container" style="max-width:960px; height:90vh;">
+      <div class="modal-header">
+        <div>
+          <h2 class="modal-title">Official Curriculum Vitae</h2>
+          <p style="font-family:var(--font-mono); font-size:0.78rem; color:var(--color-gray-400); margin-top:2px;">Abeer Wael • Source Document</p>
+        </div>
+        <div style="display:flex; align-items:center; gap:0.75rem;">
+          <a href="assets/docs/Abeer_Wael_CV.pdf" download="Abeer_Wael_CV.pdf" class="btn btn-primary btn-sm">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+            <span>Download PDF</span>
+          </a>
+          <button class="modal-close-btn" aria-label="Close CV modal">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </div>
+      </div>
+      <div style="height:calc(90vh - 85px); width:100%; background:#0a0a0a;">
+        <iframe src="assets/docs/Abeer_Wael_CV.pdf" style="width:100%; height:100%; border:none;" title="Abeer Wael CV Document"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-notice" role="alert" aria-live="assertive"></div>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
